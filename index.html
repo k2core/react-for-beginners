@@ -8,6 +8,7 @@
   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
   <script type="text/babel">
     function Btn({ text, changeValue }) {
+      console.log(text, "was rendered");
       return (
         <button
           onClick={changeValue}
